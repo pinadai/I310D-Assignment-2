@@ -19,4 +19,5 @@ One thing that I wished I did better however is having a broader set of terms to
 
 ## Questions I have:
 In what other situations can a Perspective API be used?
+
 How often do data scientists analyze data bias using a Perpective API? 

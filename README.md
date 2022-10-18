@@ -13,11 +13,13 @@ Through using my own queries and the Perspective API, I was able to extract the 
 # Results decribed more in-depth:
 As stated before, my results were that the Perspective was more biased towards comments containing sexual/sexuality-related terms by giving them a higher toxicity score.  I think it's interesting to see how specific terms impact machine learning algorithms that determine how "toxic" a comment is on social media. I theorize that machine learning for these purposes depend heavily on checking to see if a specific term is present in a set of words. I believe the way machine learning works in these circumstances is that it looks for specific words, then also analyzes the words surrounding those terms. 
 
-I wasn't very surprised by my results of the Perspective being more biased towards comments contain sexual/sexuality-related terms because you don't often see people on social media complementing each other with these types of terms. I can't blame the model for over shooting the amount of comments compared to human input because I think with my tested set of terms, there could be some situations where more context is needed to determine whether it's toxic or not. From my understanding of machine learning, it is very hard for an algorithm to determine contextual information.
+I wasn't very surprised by my results of the Perspective being more biased towards comments containing sexual/sexuality-related terms because you don't often see people on social media complementing each other with these types of terms. I can't blame the model for over shooting the amount of comments compared to human input because I think with my tested set of terms, there could be some situations where more context is needed to determine whether it's toxic or not. From my understanding of machine learning, it is very hard for an algorithm to identify detailed contextual information.
 
-One thing that I wished I did better however is having a broader set of terms to base my search on. The set of terms I included was based on my prior knowledge, looking at some of the toxic omments, and looking at other websites of sexual/sexuality terms. I know there was an easier way to do it, such as by maybe importing a dataset of these terms into the notebook. That way, a lot mroe terms would be included, resulting in a bigger sample size. I wasn't sure how to do this, so I decided to do it the "harder way." 
+One thing that I wished I did better however is having a broader set of terms to base my search on. The set of terms I included was based on my prior knowledge, looking at some of the toxic comments, and looking at other websites of sexual/sexuality terms. I definitely know that there was an easier way to do it, such as maybe by importing a dataset of these terms into the notebook. That way, a lot more terms would be included, resulting in a bigger sample size. I wasn't sure how to do this, so I decided to do it the "harder way." 
 
 ## Questions I have:
 In what other situations can a Perspective API be used?
 
-How often do data scientists analyze data bias using a Perpective API? 
+How often do data scientists analyze data bias using a Perpective API?
+
+How could I have made my process of selecting terms easier?
